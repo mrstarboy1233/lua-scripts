@@ -1,0 +1,1385 @@
+local Galax_Intro = Instance.new("ScreenGui")
+local Background = Instance.new("Frame")
+local Centre = Instance.new("Frame")
+local Section1 = Instance.new("Frame")
+local Section3 = Instance.new("Frame")
+local Section2 = Instance.new("Frame")
+local Section4 = Instance.new("Frame")
+local Section7 = Instance.new("Frame")
+local Section9 = Instance.new("Frame")
+local Section6 = Instance.new("Frame")
+local Section8 = Instance.new("Frame")
+local Section5 = Instance.new("Frame")
+local Logo = Instance.new("ImageLabel")
+local Effect = Instance.new("ImageLabel")
+local Effect_2 = Instance.new("ImageLabel")
+local Text = Instance.new("TextLabel")
+local Indicate = Instance.new("BillboardGui")
+local Text_2 = Instance.new("TextLabel")
+local MainScriptFrame = Instance.new("Frame")
+local ImageButton = Instance.new("ImageButton")
+local SXLogo = Instance.new("ImageLabel")
+local MinimizedDrag = Instance.new("ImageLabel")
+local PlusLabel = Instance.new("TextLabel")
+local MainThing = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local Roundify = Instance.new("ImageLabel")
+local Frame = Instance.new("ImageLabel")
+local TextButton_2 = Instance.new("TextButton")
+local Roundify_2 = Instance.new("ImageLabel")
+local TextButton_3 = Instance.new("TextButton")
+local Roundify_3 = Instance.new("ImageLabel")
+local Title = Instance.new("TextLabel")
+local Credits = Instance.new("TextLabel")
+local MainThing_2 = Instance.new("Frame")
+local Button1 = Instance.new("TextButton")
+local Roundify_4 = Instance.new("ImageLabel")
+local BackGround = Instance.new("ImageLabel")
+local Title_2 = Instance.new("TextLabel")
+local Credits_2 = Instance.new("TextLabel")
+local FadeGround = Instance.new("ImageLabel")
+local Fade2 = Instance.new("ImageLabel")
+local Button2 = Instance.new("TextButton")
+local Roundify_5 = Instance.new("ImageLabel")
+local GamesMain = Instance.new("Frame")
+local Fade2_2 = Instance.new("ImageLabel")
+local FadeGround_2 = Instance.new("ImageLabel")
+local BackGround_2 = Instance.new("ImageLabel")
+local GamesDraggable = Instance.new("Frame")
+local GamesTitleFade = Instance.new("TextLabel")
+local GamesTitle = Instance.new("TextLabel")
+local RoGhoul = Instance.new("ImageButton")
+local DaHood = Instance.new("ImageButton")
+local BeeSwarm = Instance.new("ImageButton")
+local Strucid = Instance.new("ImageButton")
+local LumberTycoon = Instance.new("ImageButton")
+local Arsenal = Instance.new("ImageButton")
+local KAT = Instance.new("ImageButton")
+local MurderMystery2 = Instance.new("ImageButton")
+local FadeRoGhoul = Instance.new("ImageLabel")
+local FadeDH = Instance.new("ImageLabel")
+local FadeStrucid = Instance.new("ImageLabel")
+local FadeBS = Instance.new("ImageLabel")
+local FadeLT2 = Instance.new("ImageLabel")
+local FadeKAT = Instance.new("ImageLabel")
+local FadeMM2 = Instance.new("ImageLabel")
+local FadeARSENAL = Instance.new("ImageLabel")
+local ScriptsMain = Instance.new("Frame")
+local Fade2_3 = Instance.new("ImageLabel")
+local FadeGround_3 = Instance.new("ImageLabel")
+local BackGround_3 = Instance.new("ImageLabel")
+local ScriptsDraggable = Instance.new("Frame")
+local ScriptsTitleFade = Instance.new("TextLabel")
+local ScriptsTitle = Instance.new("TextLabel")
+local Hitbox = Instance.new("TextButton")
+local Roundify_6 = Instance.new("ImageLabel")
+local Aimbot = Instance.new("TextButton")
+local Roundify_7 = Instance.new("ImageLabel")
+local ESP = Instance.new("TextButton")
+local Roundify_8 = Instance.new("ImageLabel")
+local InfiniteYield = Instance.new("TextButton")
+local Roundify_9 = Instance.new("ImageLabel")
+local InfiniteJump = Instance.new("TextButton")
+local Roundify_10 = Instance.new("ImageLabel")
+local TitleFade = Instance.new("TextLabel")
+local TipInfiniteJump = Instance.new("TextLabel")
+local WARNING = Instance.new("TextLabel")
+local WARNING2 = Instance.new("TextLabel")
+
+
+
+Galax_Intro.Name = "Galax_Intro"
+Galax_Intro.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Background.Name = "Background"
+Background.Parent = Galax_Intro
+Background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Background.BackgroundTransparency = 2.000
+Background.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Background.BorderSizePixel = 50
+Background.Size = UDim2.new(1, 0, 1, 0)
+Background.ZIndex = 20
+
+Centre.Name = "Centre"
+Centre.Parent = Background
+Centre.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Centre.BackgroundTransparency = 1.000
+Centre.BorderSizePixel = 0
+Centre.Position = UDim2.new(0.5, -200, 0.5, -200)
+Centre.Size = UDim2.new(0, 400, 0, 400)
+Centre.ZIndex = 21
+
+Section1.Name = "Section1"
+Section1.Parent = Centre
+Section1.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Section1.BackgroundTransparency = 1.000
+Section1.BorderSizePixel = 0
+Section1.Position = UDim2.new(0, 150, 0, 150)
+Section1.Size = UDim2.new(0, 100, 0, 100)
+Section1.Visible = false
+Section1.ZIndex = 23
+
+Section3.Name = "Section3"
+Section3.Parent = Centre
+Section3.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Section3.BorderSizePixel = 0
+Section3.Position = UDim2.new(0, 150, 0, 150)
+Section3.Size = UDim2.new(0, 100, 0, 100)
+Section3.Visible = false
+Section3.ZIndex = 23
+
+Section2.Name = "Section2"
+Section2.Parent = Centre
+Section2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Section2.BorderSizePixel = 0
+Section2.Position = UDim2.new(0, 150, 0, 150)
+Section2.Size = UDim2.new(0, 100, 0, 100)
+Section2.Visible = false
+Section2.ZIndex = 23
+
+Section4.Name = "Section4"
+Section4.Parent = Centre
+Section4.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Section4.BorderSizePixel = 0
+Section4.Position = UDim2.new(0, 270, 0, 150)
+Section4.Size = UDim2.new(0, 100, 0, 100)
+Section4.Visible = false
+Section4.ZIndex = 23
+
+Section7.Name = "Section7"
+Section7.Parent = Centre
+Section7.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Section7.BorderSizePixel = 0
+Section7.Position = UDim2.new(0, 270, 0, 30)
+Section7.Size = UDim2.new(0, 100, 0, 100)
+Section7.Visible = false
+Section7.ZIndex = 23
+
+Section9.Name = "Section9"
+Section9.Parent = Centre
+Section9.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Section9.BorderSizePixel = 0
+Section9.Position = UDim2.new(0, 30, 0, 150)
+Section9.Size = UDim2.new(0, 100, 0, 100)
+Section9.Visible = false
+Section9.ZIndex = 23
+
+Section6.Name = "Section6"
+Section6.Parent = Centre
+Section6.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Section6.BorderSizePixel = 0
+Section6.Position = UDim2.new(0, 30, 0, 270)
+Section6.Size = UDim2.new(0, 100, 0, 100)
+Section6.Visible = false
+Section6.ZIndex = 23
+
+Section8.Name = "Section8"
+Section8.Parent = Centre
+Section8.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Section8.BorderSizePixel = 0
+Section8.Position = UDim2.new(0, 270, 0, 150)
+Section8.Size = UDim2.new(0, 100, 0, 100)
+Section8.Visible = false
+Section8.ZIndex = 23
+
+Section5.Name = "Section5"
+Section5.Parent = Centre
+Section5.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Section5.BorderSizePixel = 0
+Section5.Position = UDim2.new(0, 30, 0, 150)
+Section5.Size = UDim2.new(0, 100, 0, 100)
+Section5.Visible = false
+Section5.ZIndex = 23
+
+Logo.Name = "Logo"
+Logo.Parent = Centre
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.BackgroundTransparency = 1.000
+Logo.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Logo.BorderSizePixel = 0
+Logo.Size = UDim2.new(0, 400, 0, 400)
+Logo.ZIndex = 25
+Logo.Image = "rbxassetid://6518439271"
+Logo.ImageTransparency = 1.000
+
+Effect.Name = "Effect"
+Effect.Parent = Logo
+Effect.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Effect.BackgroundTransparency = 1.000
+Effect.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Effect.BorderSizePixel = 0
+Effect.Size = UDim2.new(0, 400, 0, 400)
+Effect.ZIndex = 24
+Effect.Image = "http://www.roblox.com/asset/?id=6518439271"
+Effect.ImageTransparency = 1.000
+
+Effect_2.Name = "Effect"
+Effect_2.Parent = Background
+Effect_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Effect_2.BackgroundTransparency = 1.000
+Effect_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Effect_2.BorderSizePixel = 50
+Effect_2.Size = UDim2.new(1, 0, 1, 0)
+Effect_2.ZIndex = 21
+Effect_2.Image = "rbxassetid://236900702"
+Effect_2.ImageColor3 = Color3.fromRGB(24, 24, 24)
+Effect_2.ImageTransparency = 1.000
+
+Text.Name = "Text"
+Text.Parent = Background
+Text.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Text.BackgroundTransparency = 1.000
+Text.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Text.BorderSizePixel = 0
+Text.Size = UDim2.new(1, 0, 1, 0)
+Text.Font = Enum.Font.SourceSansBold
+Text.Text = ""
+Text.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text.TextSize = 48.000
+Text.TextStrokeColor3 = Color3.fromRGB(30, 30, 30)
+Text.TextStrokeTransparency = 0.500
+
+Indicate.Name = "Indicate"
+Indicate.Parent = Galax_Intro
+Indicate.ExtentsOffset = Vector3.new(0, 3, 0)
+Indicate.Size = UDim2.new(0.5, 0, 0.5, 0)
+
+Text_2.Name = "Text"
+Text_2.Parent = Indicate
+Text_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text_2.BackgroundTransparency = 1.000
+Text_2.Position = UDim2.new(-14.5, 0, -1, 0)
+Text_2.Size = UDim2.new(30, 0, 1.5, 0)
+Text_2.Visible = false
+Text_2.Font = Enum.Font.SourceSansBold
+Text_2.Text = "CONNECTING"
+Text_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_2.TextScaled = true
+Text_2.TextSize = 14.000
+Text_2.TextStrokeTransparency = 0.800
+Text_2.TextWrapped = true
+
+MainScriptFrame.Name = "MainScriptFrame"
+MainScriptFrame.Parent = Galax_Intro
+MainScriptFrame.Active = true
+MainScriptFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainScriptFrame.BackgroundTransparency = 1.000
+MainScriptFrame.Position = UDim2.new(0.206764027, 0, 0.144881889, 0)
+MainScriptFrame.Size = UDim2.new(0, 377, 0, 41)
+MainScriptFrame.Visible = false
+MainScriptFrame.ZIndex = -5
+MainScriptFrame.Draggable = true
+
+ImageButton.Parent = MainScriptFrame
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 1.000
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.52978301, 0, 1.62389183, 0)
+ImageButton.Size = UDim2.new(0, 55, 0, 56)
+ImageButton.ZIndex = 4
+ImageButton.Image = "rbxassetid://7207373731"
+ImageButton.ImageColor3 = Color3.fromRGB(48, 48, 48)
+ImageButton.ScaleType = Enum.ScaleType.Crop
+
+SXLogo.Name = "SXLogo"
+SXLogo.Parent = ImageButton
+SXLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SXLogo.BackgroundTransparency = 1.000
+SXLogo.Position = UDim2.new(0.169161439, 0, 0.165178791, 0)
+SXLogo.Size = UDim2.new(0, 36, 0, 35)
+SXLogo.ZIndex = 5
+SXLogo.Image = "rbxassetid://6518439271"
+
+MinimizedDrag.Name = "MinimizedDrag"
+MinimizedDrag.Parent = ImageButton
+MinimizedDrag.AnchorPoint = Vector2.new(0.5, 0.5)
+MinimizedDrag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MinimizedDrag.BackgroundTransparency = 1.000
+MinimizedDrag.Position = UDim2.new(0.4909091, 0, 1.10267878, 0)
+MinimizedDrag.Size = UDim2.new(1.84363651, 24, 0.196428373, 24)
+MinimizedDrag.Image = "rbxassetid://7207373289"
+MinimizedDrag.ImageColor3 = Color3.fromRGB(48, 48, 48)
+MinimizedDrag.SliceCenter = Rect.new(100, 100, 100, 100)
+MinimizedDrag.SliceScale = 0.120
+
+
+
+PlusLabel.Name = "PlusLabel"
+PlusLabel.Parent = MinimizedDrag
+PlusLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlusLabel.BackgroundTransparency = 1.000
+PlusLabel.Position = UDim2.new(0.0797448158, 0, 0.485714227, 0)
+PlusLabel.Size = UDim2.new(0, 104, 0, 0)
+PlusLabel.Font = Enum.Font.Code
+PlusLabel.Text = "v1.0.1"
+PlusLabel.TextColor3 = Color3.fromRGB(117, 117, 117)
+PlusLabel.TextSize = 14.000
+
+MainThing.Name = "MainThing"
+MainThing.Parent = ImageButton
+MainThing.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainThing.BackgroundTransparency = 1.000
+MainThing.Position = UDim2.new(0.199796125, 0, 0.140659347, 0)
+MainThing.Size = UDim2.new(0, 248, 0, 36)
+MainThing.Visible = false
+MainThing.ZIndex = 50
+
+TextButton.Parent = MainThing
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.0919856429, 0, 0.783455253, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 27)
+TextButton.ZIndex = 5
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Cash Dropper"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+Roundify.Name = "Roundify"
+Roundify.Parent = TextButton
+Roundify.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Roundify.BackgroundTransparency = 1.000
+Roundify.Position = UDim2.new(0.5, 0, 0.5, 0)
+Roundify.Size = UDim2.new(0.879999995, 24, 0.519999981, 24)
+Roundify.Image = "rbxassetid://3570695787"
+Roundify.ScaleType = Enum.ScaleType.Slice
+Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify.SliceScale = 0.120
+
+Frame.Name = "Frame"
+Frame.Parent = MainThing
+Frame.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0, 0, 0.175824478, 0)
+Frame.Size = UDim2.new(0, 247, 0, 165)
+Frame.ZIndex = 0
+Frame.Image = "rbxassetid://3570695787"
+Frame.ImageColor3 = Color3.fromRGB(48, 48, 48)
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
+
+TextButton_2.Parent = MainThing
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.0919856429, 0, 2.08333325, 0)
+TextButton_2.Size = UDim2.new(0, 200, 0, 27)
+TextButton_2.ZIndex = 5
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Swagmode"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+Roundify_2.Name = "Roundify"
+Roundify_2.Parent = TextButton_2
+Roundify_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Roundify_2.BackgroundTransparency = 1.000
+Roundify_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+Roundify_2.Size = UDim2.new(0.879999995, 24, 0.519999981, 24)
+Roundify_2.Image = "rbxassetid://3570695787"
+Roundify_2.ScaleType = Enum.ScaleType.Slice
+Roundify_2.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify_2.SliceScale = 0.120
+
+TextButton_3.Parent = MainThing
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.0919856429, 0, 3.41666651, 0)
+TextButton_3.Size = UDim2.new(0, 200, 0, 27)
+TextButton_3.ZIndex = 5
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Infinite Yield"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+Roundify_3.Name = "Roundify"
+Roundify_3.Parent = TextButton_3
+Roundify_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Roundify_3.BackgroundTransparency = 1.000
+Roundify_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+Roundify_3.Size = UDim2.new(0.879999995, 24, 0.519999981, 24)
+Roundify_3.Image = "rbxassetid://3570695787"
+Roundify_3.ScaleType = Enum.ScaleType.Slice
+Roundify_3.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify_3.SliceScale = 0.120
+
+Title.Name = "Title"
+Title.Parent = MainThing
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.0927419364, 0, -0.888888896, 0)
+Title.Size = UDim2.new(0, 200, 0, 32)
+Title.ZIndex = 0
+Title.Font = Enum.Font.SourceSans
+Title.Text = ""
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+Credits.Name = "Credits"
+Credits.Parent = MainThing
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.Position = UDim2.new(0.0887096748, 0, 4.75, 0)
+Credits.Size = UDim2.new(0, 200, 0, 15)
+Credits.ZIndex = 0
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "By Synpai#9839"
+Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+
+MainThing_2.Name = "MainThing"
+MainThing_2.Parent = MainScriptFrame
+MainThing_2.Active = true
+MainThing_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainThing_2.BackgroundTransparency = 1.000
+MainThing_2.Position = UDim2.new(0.199796125, 0, 0.140659347, 0)
+MainThing_2.Size = UDim2.new(0, 464, 0, 32)
+MainThing_2.ZIndex = 50
+
+Button1.Name = "Button1"
+Button1.Parent = MainThing_2
+Button1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button1.BackgroundTransparency = 1.000
+Button1.BorderSizePixel = 0
+Button1.Position = UDim2.new(0.0531925336, 0, 3.40845513, 0)
+Button1.Size = UDim2.new(0, 47, 0, 27)
+Button1.ZIndex = 5
+Button1.Font = Enum.Font.Fondamento
+Button1.Text = "Games"
+Button1.TextColor3 = Color3.fromRGB(117, 117, 117)
+Button1.TextScaled = true
+Button1.TextSize = 14.000
+Button1.TextWrapped = true
+
+Roundify_4.Name = "Roundify"
+Roundify_4.Parent = Button1
+Roundify_4.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Roundify_4.BackgroundTransparency = 1.000
+Roundify_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+Roundify_4.Size = UDim2.new(0.879999995, 24, 0.519999981, 24)
+Roundify_4.Image = "rbxassetid://7207373289"
+Roundify_4.ScaleType = Enum.ScaleType.Slice
+Roundify_4.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify_4.SliceScale = 0.120
+
+BackGround.Name = "BackGround"
+BackGround.Parent = MainThing_2
+BackGround.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+BackGround.BackgroundTransparency = 1.000
+BackGround.Position = UDim2.new(0, 0, 0.175824404, 0)
+BackGround.Size = UDim2.new(0, 300, 0, 192)
+BackGround.ZIndex = 0
+BackGround.Image = "rbxassetid://3570695787"
+BackGround.ImageColor3 = Color3.fromRGB(16, 16, 16)
+BackGround.ScaleType = Enum.ScaleType.Slice
+BackGround.SliceCenter = Rect.new(100, 100, 100, 100)
+BackGround.SliceScale = 0.120
+
+Title_2.Name = "Title"
+Title_2.Parent = MainThing_2
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.BackgroundTransparency = 1.000
+Title_2.Position = UDim2.new(0, 0, -1.04513884, 0)
+Title_2.Size = UDim2.new(0, 300, 0, 32)
+Title_2.ZIndex = 0
+Title_2.Font = Enum.Font.Fondamento
+Title_2.Text = "Sinister Hub"
+Title_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title_2.TextScaled = true
+Title_2.TextSize = 14.000
+Title_2.TextWrapped = true
+
+Credits_2.Name = "Credits"
+Credits_2.Parent = MainThing_2
+Credits_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits_2.BackgroundTransparency = 1.000
+Credits_2.Position = UDim2.new(0.110261418, 0, 5.46875, 0)
+Credits_2.Size = UDim2.new(0, 200, 0, 15)
+Credits_2.ZIndex = 0
+Credits_2.Font = Enum.Font.Fondamento
+Credits_2.Text = "By Synpai#9839"
+Credits_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits_2.TextScaled = true
+Credits_2.TextSize = 14.000
+Credits_2.TextWrapped = true
+
+FadeGround.Name = "FadeGround"
+FadeGround.Parent = MainThing_2
+FadeGround.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+FadeGround.BackgroundTransparency = 1.000
+FadeGround.Position = UDim2.new(-0.19181034, 0, -2.19745898, 0)
+FadeGround.Size = UDim2.new(0, 488, 0, 386)
+FadeGround.ZIndex = -1
+FadeGround.Image = "rbxassetid://7207373289"
+FadeGround.ImageColor3 = Color3.fromRGB(22, 22, 22)
+FadeGround.SliceCenter = Rect.new(100, 100, 100, 100)
+FadeGround.SliceScale = 0.000
+
+Fade2.Name = "Fade2"
+Fade2.Parent = MainThing_2
+Fade2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Fade2.BackgroundTransparency = 1.000
+Fade2.Position = UDim2.new(-0.146551728, 0, -0.795139074, 0)
+Fade2.Size = UDim2.new(0, 440, 0, 254)
+Fade2.Image = "rbxassetid://7207374314"
+Fade2.ImageColor3 = Color3.fromRGB(22, 22, 22)
+Fade2.ScaleType = Enum.ScaleType.Tile
+Fade2.SliceCenter = Rect.new(100, 100, 100, 100)
+Fade2.SliceScale = 0.120
+
+Button2.Name = "Button2"
+Button2.Parent = MainThing_2
+Button2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button2.BackgroundTransparency = 1.000
+Button2.BorderSizePixel = 0
+Button2.Position = UDim2.new(0.50146842, 0, 3.40845513, 0)
+Button2.Size = UDim2.new(0, 47, 0, 27)
+Button2.ZIndex = 5
+Button2.Font = Enum.Font.Fondamento
+Button2.Text = "Scripts"
+Button2.TextColor3 = Color3.fromRGB(117, 117, 117)
+Button2.TextScaled = true
+Button2.TextSize = 14.000
+Button2.TextWrapped = true
+
+Roundify_5.Name = "Roundify"
+Roundify_5.Parent = Button2
+Roundify_5.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Roundify_5.BackgroundTransparency = 1.000
+Roundify_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+Roundify_5.Size = UDim2.new(0.879999995, 24, 0.519999981, 24)
+Roundify_5.Image = "rbxassetid://7207373289"
+Roundify_5.ScaleType = Enum.ScaleType.Slice
+Roundify_5.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify_5.SliceScale = 0.120
+
+GamesMain.Name = "GamesMain"
+GamesMain.Parent = MainThing_2
+GamesMain.Active = true
+GamesMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GamesMain.BackgroundTransparency = 1.000
+GamesMain.Position = UDim2.new(-0.661637902, 0, -0.40625, 0)
+GamesMain.Size = UDim2.new(0, 261, 0, 375)
+GamesMain.Visible = false
+GamesMain.ZIndex = -5
+
+Fade2_2.Name = "Fade2"
+Fade2_2.Parent = GamesMain
+Fade2_2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Fade2_2.BackgroundTransparency = 1.000
+Fade2_2.Position = UDim2.new(-0.0457426943, 0, 0, 0)
+Fade2_2.Size = UDim2.new(0, 295, 0, 374)
+Fade2_2.Image = "rbxassetid://7207374314"
+Fade2_2.ImageColor3 = Color3.fromRGB(22, 22, 22)
+Fade2_2.ScaleType = Enum.ScaleType.Tile
+Fade2_2.SliceCenter = Rect.new(100, 100, 100, 100)
+Fade2_2.SliceScale = 0.120
+
+FadeGround_2.Name = "FadeGround"
+FadeGround_2.Parent = GamesMain
+FadeGround_2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+FadeGround_2.BackgroundTransparency = 1.000
+FadeGround_2.Position = UDim2.new(-0.0665709972, 0, 0, 0)
+FadeGround_2.Size = UDim2.new(0, 300, 0, 419)
+FadeGround_2.ZIndex = -1
+FadeGround_2.Image = "rbxassetid://7207373289"
+FadeGround_2.ImageColor3 = Color3.fromRGB(22, 22, 22)
+FadeGround_2.SliceCenter = Rect.new(100, 100, 100, 100)
+FadeGround_2.SliceScale = 0.000
+
+BackGround_2.Name = "BackGround"
+BackGround_2.Parent = GamesMain
+BackGround_2.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+BackGround_2.BackgroundTransparency = 1.000
+BackGround_2.Position = UDim2.new(0.129446447, 0, 0.12457373, 0)
+BackGround_2.Size = UDim2.new(0, 205, 0, 288)
+BackGround_2.ZIndex = 0
+BackGround_2.Image = "rbxassetid://3570695787"
+BackGround_2.ImageColor3 = Color3.fromRGB(16, 16, 16)
+BackGround_2.ScaleType = Enum.ScaleType.Slice
+BackGround_2.SliceCenter = Rect.new(100, 100, 100, 100)
+BackGround_2.SliceScale = 0.120
+
+GamesDraggable.Name = "GamesDraggable"
+GamesDraggable.Parent = GamesMain
+GamesDraggable.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GamesDraggable.BackgroundTransparency = 1.000
+GamesDraggable.Position = UDim2.new(-0.00263404124, 0, 0, 0)
+GamesDraggable.Size = UDim2.new(0, 261, 0, 86)
+GamesDraggable.ZIndex = 3
+
+GamesTitleFade.Name = "GamesTitleFade"
+GamesTitleFade.Parent = GamesDraggable
+GamesTitleFade.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GamesTitleFade.BackgroundTransparency = 1.000
+GamesTitleFade.Position = UDim2.new(-0.0742337182, 0, -0.0102550592, 0)
+GamesTitleFade.Size = UDim2.new(0, 302, 0, 32)
+GamesTitleFade.Font = Enum.Font.Fondamento
+GamesTitleFade.Text = "Games"
+GamesTitleFade.TextColor3 = Color3.fromRGB(138, 138, 138)
+GamesTitleFade.TextScaled = true
+GamesTitleFade.TextSize = 14.000
+GamesTitleFade.TextWrapped = true
+
+GamesTitle.Name = "GamesTitle"
+GamesTitle.Parent = GamesDraggable
+GamesTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GamesTitle.BackgroundTransparency = 1.000
+GamesTitle.Position = UDim2.new(-0.0651341006, 0, -0.0102550983, 0)
+GamesTitle.Size = UDim2.new(0, 300, 0, 32)
+GamesTitle.ZIndex = 0
+GamesTitle.Font = Enum.Font.Fondamento
+GamesTitle.Text = "Games"
+GamesTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
+GamesTitle.TextScaled = true
+GamesTitle.TextSize = 14.000
+GamesTitle.TextWrapped = true
+
+RoGhoul.Name = "Ro-Ghoul"
+RoGhoul.Parent = GamesMain
+RoGhoul.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RoGhoul.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RoGhoul.Position = UDim2.new(0.241379306, 0, 0.189333335, 0)
+RoGhoul.Size = UDim2.new(0, 49, 0, 45)
+RoGhoul.Image = "http://www.roblox.com/asset/?id=7198281524"
+--Funcionamiento
+RoGhoul.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/z4gs/scripts/master/Ro-Ghoul%20Auto%20Farm.lua"))()
+end)
+--Fin del funcionamiento
+
+DaHood.Name = "Da Hood"
+DaHood.Parent = GamesMain
+DaHood.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DaHood.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DaHood.Position = UDim2.new(0.601532578, 0, 0.189333335, 0)
+DaHood.Size = UDim2.new(0, 49, 0, 45)
+DaHood.Image = "http://www.roblox.com/asset/?id=7198457606"
+--Funcionamiento
+DaHood.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+end)
+--Fin del funcionamiento
+
+BeeSwarm.Name = "Bee Swarm"
+BeeSwarm.Parent = GamesMain
+BeeSwarm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BeeSwarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BeeSwarm.Position = UDim2.new(0.233716473, 0, 0.370666683, 0)
+BeeSwarm.Size = UDim2.new(0, 49, 0, 45)
+BeeSwarm.Image = "http://www.roblox.com/asset/?id=7198469859"
+--Funcionamiento
+BeeSwarm.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/3A61hnGA", true))()
+end)
+--Fin del funcionamiento
+
+Strucid.Name = "Strucid"
+Strucid.Parent = GamesMain
+Strucid.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Strucid.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Strucid.Position = UDim2.new(0.593869746, 0, 0.370666683, 0)
+Strucid.Size = UDim2.new(0, 49, 0, 45)
+Strucid.Image = "http://www.roblox.com/asset/?id=7207565944"
+--Funcionamiento
+Strucid.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CoDeXHackPlayzYT/Roblox/main/Strucid", true))()
+end)
+--Fin del funcionamiento
+
+LumberTycoon.Name = "Lumber Tycoon"
+LumberTycoon.Parent = GamesMain
+LumberTycoon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LumberTycoon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LumberTycoon.Position = UDim2.new(0.233716473, 0, 0.541333318, 0)
+LumberTycoon.Size = UDim2.new(0, 49, 0, 45)
+LumberTycoon.Image = "http://www.roblox.com/asset/?id=7207558853"
+--Funcionamiento
+LumberTycoon.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/qzsLHpF9", true))()
+end)
+--Fin del funcionamiento
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = GamesMain
+Arsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal.Position = UDim2.new(0.593869746, 0, 0.541333318, 0)
+Arsenal.Size = UDim2.new(0, 49, 0, 45)
+Arsenal.Image = "http://www.roblox.com/asset/?id=7198476052"
+--Funcionamiento
+Arsenal.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
+--Fin del funcionamiento
+
+KAT.Name = "KAT"
+KAT.Parent = GamesMain
+KAT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KAT.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KAT.Position = UDim2.new(0.22605364, 0, 0.706666648, 0)
+KAT.Size = UDim2.new(0, 49, 0, 45)
+KAT.Image = "http://www.roblox.com/asset/?id=7207559223"
+--Funcionamiento
+KAT.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/6rd91GZx", true))()
+end)
+--Fin del funcionamiento
+
+MurderMystery2.Name = "Murder Mystery 2"
+MurderMystery2.Parent = GamesMain
+MurderMystery2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MurderMystery2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MurderMystery2.Position = UDim2.new(0.586206913, 0, 0.706666648, 0)
+MurderMystery2.Size = UDim2.new(0, 49, 0, 45)
+MurderMystery2.Image = "http://www.roblox.com/asset/?id=7207558440"
+--Funcionamiento
+MurderMystery2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))() 
+end)
+--Fin del funcionamiento
+
+FadeRoGhoul.Name = "FadeRoGhoul"
+FadeRoGhoul.Parent = GamesMain
+FadeRoGhoul.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+FadeRoGhoul.BackgroundTransparency = 1.000
+FadeRoGhoul.Position = UDim2.new(0.187973782, 0, 0.170666665, 0)
+FadeRoGhoul.Size = UDim2.new(0, 74, 0, 58)
+FadeRoGhoul.Image = "rbxassetid://7207374314"
+FadeRoGhoul.ImageColor3 = Color3.fromRGB(22, 22, 22)
+FadeRoGhoul.ScaleType = Enum.ScaleType.Tile
+FadeRoGhoul.SliceCenter = Rect.new(100, 100, 100, 100)
+FadeRoGhoul.SliceScale = 0.120
+
+FadeDH.Name = "FadeDH"
+FadeDH.Parent = GamesMain
+FadeDH.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+FadeDH.BackgroundTransparency = 1.000
+FadeDH.Position = UDim2.new(0.548127055, 0, 0.170666665, 0)
+FadeDH.Size = UDim2.new(0, 74, 0, 58)
+FadeDH.Image = "rbxassetid://7207374314"
+FadeDH.ImageColor3 = Color3.fromRGB(22, 22, 22)
+FadeDH.ScaleType = Enum.ScaleType.Tile
+FadeDH.SliceCenter = Rect.new(100, 100, 100, 100)
+FadeDH.SliceScale = 0.120
+
+FadeStrucid.Name = "FadeStrucid"
+FadeStrucid.Parent = GamesMain
+FadeStrucid.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+FadeStrucid.BackgroundTransparency = 1.000
+FadeStrucid.Position = UDim2.new(0.548022985, 0, 0.352333337, 0)
+FadeStrucid.Size = UDim2.new(0, 74, 0, 58)
+FadeStrucid.Image = "rbxassetid://7207374314"
+FadeStrucid.ImageColor3 = Color3.fromRGB(22, 22, 22)
+FadeStrucid.ScaleType = Enum.ScaleType.Tile
+FadeStrucid.SliceCenter = Rect.new(100, 100, 100, 100)
+FadeStrucid.SliceScale = 0.120
+
+FadeBS.Name = "FadeBS"
+FadeBS.Parent = GamesMain
+FadeBS.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+FadeBS.BackgroundTransparency = 1.000
+FadeBS.Position = UDim2.new(0.187869728, 0, 0.352333337, 0)
+FadeBS.Size = UDim2.new(0, 74, 0, 58)
+FadeBS.Image = "rbxassetid://7207374314"
+FadeBS.ImageColor3 = Color3.fromRGB(22, 22, 22)
+FadeBS.ScaleType = Enum.ScaleType.Tile
+FadeBS.SliceCenter = Rect.new(100, 100, 100, 100)
+FadeBS.SliceScale = 0.120
+
+FadeLT2.Name = "FadeLT2"
+FadeLT2.Parent = GamesMain
+FadeLT2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+FadeLT2.BackgroundTransparency = 1.000
+FadeLT2.Position = UDim2.new(0.176375479, 0, 0.523000002, 0)
+FadeLT2.Size = UDim2.new(0, 74, 0, 58)
+FadeLT2.Image = "rbxassetid://7207374314"
+FadeLT2.ImageColor3 = Color3.fromRGB(22, 22, 22)
+FadeLT2.ScaleType = Enum.ScaleType.Tile
+FadeLT2.SliceCenter = Rect.new(100, 100, 100, 100)
+FadeLT2.SliceScale = 0.120
+
+FadeKAT.Name = "FadeKAT"
+FadeKAT.Parent = GamesMain
+FadeKAT.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+FadeKAT.BackgroundTransparency = 1.000
+FadeKAT.Position = UDim2.new(0.184038311, 0, 0.688333333, 0)
+FadeKAT.Size = UDim2.new(0, 74, 0, 58)
+FadeKAT.Image = "rbxassetid://7207374314"
+FadeKAT.ImageColor3 = Color3.fromRGB(22, 22, 22)
+FadeKAT.ScaleType = Enum.ScaleType.Tile
+FadeKAT.SliceCenter = Rect.new(100, 100, 100, 100)
+FadeKAT.SliceScale = 0.120
+
+FadeMM2.Name = "FadeMM2"
+FadeMM2.Parent = GamesMain
+FadeMM2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+FadeMM2.BackgroundTransparency = 1.000
+FadeMM2.Position = UDim2.new(0.544191599, 0, 0.688333333, 0)
+FadeMM2.Size = UDim2.new(0, 74, 0, 58)
+FadeMM2.Image = "rbxassetid://7207374314"
+FadeMM2.ImageColor3 = Color3.fromRGB(22, 22, 22)
+FadeMM2.ScaleType = Enum.ScaleType.Tile
+FadeMM2.SliceCenter = Rect.new(100, 100, 100, 100)
+FadeMM2.SliceScale = 0.120
+
+FadeARSENAL.Name = "FadeARSENAL"
+FadeARSENAL.Parent = GamesMain
+FadeARSENAL.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+FadeARSENAL.BackgroundTransparency = 1.000
+FadeARSENAL.Position = UDim2.new(0.544191599, 0, 0.523000002, 0)
+FadeARSENAL.Size = UDim2.new(0, 74, 0, 58)
+FadeARSENAL.Image = "rbxassetid://7207374314"
+FadeARSENAL.ImageColor3 = Color3.fromRGB(22, 22, 22)
+FadeARSENAL.ScaleType = Enum.ScaleType.Tile
+FadeARSENAL.SliceCenter = Rect.new(100, 100, 100, 100)
+FadeARSENAL.SliceScale = 0.120
+
+ScriptsMain.Name = "ScriptsMain"
+ScriptsMain.Parent = MainThing_2
+ScriptsMain.Active = true
+ScriptsMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsMain.BackgroundTransparency = 1.000
+ScriptsMain.Position = UDim2.new(0.75, 0, -0.40625, 0)
+ScriptsMain.Size = UDim2.new(0, 261, 0, 375)
+ScriptsMain.Visible = false
+ScriptsMain.ZIndex = -5
+
+Fade2_3.Name = "Fade2"
+Fade2_3.Parent = ScriptsMain
+Fade2_3.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Fade2_3.BackgroundTransparency = 1.000
+Fade2_3.Position = UDim2.new(-0.0457426943, 0, 0, 0)
+Fade2_3.Size = UDim2.new(0, 295, 0, 374)
+Fade2_3.Image = "rbxassetid://7207374314"
+Fade2_3.ImageColor3 = Color3.fromRGB(22, 22, 22)
+Fade2_3.ScaleType = Enum.ScaleType.Tile
+Fade2_3.SliceCenter = Rect.new(100, 100, 100, 100)
+Fade2_3.SliceScale = 0.120
+
+FadeGround_3.Name = "FadeGround"
+FadeGround_3.Parent = ScriptsMain
+FadeGround_3.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+FadeGround_3.BackgroundTransparency = 1.000
+FadeGround_3.Position = UDim2.new(-0.0665709972, 0, 0, 0)
+FadeGround_3.Size = UDim2.new(0, 300, 0, 419)
+FadeGround_3.ZIndex = -1
+FadeGround_3.Image = "rbxassetid://7207373289"
+FadeGround_3.ImageColor3 = Color3.fromRGB(22, 22, 22)
+FadeGround_3.SliceCenter = Rect.new(100, 100, 100, 100)
+FadeGround_3.SliceScale = 0.000
+
+BackGround_3.Name = "BackGround"
+BackGround_3.Parent = ScriptsMain
+BackGround_3.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+BackGround_3.BackgroundTransparency = 1.000
+BackGround_3.Position = UDim2.new(0.129446447, 0, 0.12457373, 0)
+BackGround_3.Size = UDim2.new(0, 205, 0, 288)
+BackGround_3.ZIndex = 0
+BackGround_3.Image = "rbxassetid://3570695787"
+BackGround_3.ImageColor3 = Color3.fromRGB(16, 16, 16)
+BackGround_3.ScaleType = Enum.ScaleType.Slice
+BackGround_3.SliceCenter = Rect.new(100, 100, 100, 100)
+BackGround_3.SliceScale = 0.120
+
+ScriptsDraggable.Name = "ScriptsDraggable"
+ScriptsDraggable.Parent = ScriptsMain
+ScriptsDraggable.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsDraggable.BackgroundTransparency = 1.000
+ScriptsDraggable.Position = UDim2.new(-0.00263404124, 0, 0, 0)
+ScriptsDraggable.Size = UDim2.new(0, 261, 0, 86)
+ScriptsDraggable.ZIndex = 3
+
+ScriptsTitleFade.Name = "ScriptsTitleFade"
+ScriptsTitleFade.Parent = ScriptsDraggable
+ScriptsTitleFade.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsTitleFade.BackgroundTransparency = 1.000
+ScriptsTitleFade.Position = UDim2.new(-0.0742337182, 0, -0.0102550592, 0)
+ScriptsTitleFade.Size = UDim2.new(0, 302, 0, 32)
+ScriptsTitleFade.Font = Enum.Font.Fondamento
+ScriptsTitleFade.Text = "Scripts"
+ScriptsTitleFade.TextColor3 = Color3.fromRGB(138, 138, 138)
+ScriptsTitleFade.TextScaled = true
+ScriptsTitleFade.TextSize = 14.000
+ScriptsTitleFade.TextWrapped = true
+
+ScriptsTitle.Name = "ScriptsTitle"
+ScriptsTitle.Parent = ScriptsDraggable
+ScriptsTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsTitle.BackgroundTransparency = 1.000
+ScriptsTitle.Position = UDim2.new(-0.0651341006, 0, -0.0102550983, 0)
+ScriptsTitle.Size = UDim2.new(0, 300, 0, 32)
+ScriptsTitle.ZIndex = 0
+ScriptsTitle.Font = Enum.Font.Fondamento
+ScriptsTitle.Text = "Scripts"
+ScriptsTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScriptsTitle.TextScaled = true
+ScriptsTitle.TextSize = 14.000
+ScriptsTitle.TextWrapped = true
+
+Hitbox.Name = "Hitbox"
+Hitbox.Parent = ScriptsDraggable
+Hitbox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hitbox.BackgroundTransparency = 1.000
+Hitbox.BorderSizePixel = 0
+Hitbox.Position = UDim2.new(0.255060375, 0, 0.922990263, 0)
+Hitbox.Size = UDim2.new(0, 140, 0, 27)
+Hitbox.ZIndex = 5
+Hitbox.Font = Enum.Font.Fondamento
+Hitbox.Text = "Hitbox"
+Hitbox.TextColor3 = Color3.fromRGB(117, 117, 117)
+Hitbox.TextScaled = true
+Hitbox.TextSize = 14.000
+Hitbox.TextWrapped = true
+--Funcionamiento
+Hitbox.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("http://gameovers.net/Scripts/Free/HitboxExpander/main.lua", true))()
+end)
+--Fin del funcionamiento
+
+Roundify_6.Name = "Roundify"
+Roundify_6.Parent = Hitbox
+Roundify_6.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Roundify_6.BackgroundTransparency = 1.000
+Roundify_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+Roundify_6.Size = UDim2.new(0.879999995, 24, 0.519999981, 24)
+Roundify_6.Image = "rbxassetid://7207373289"
+Roundify_6.ScaleType = Enum.ScaleType.Slice
+Roundify_6.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify_6.SliceScale = 0.120
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = ScriptsDraggable
+Aimbot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Aimbot.BackgroundTransparency = 1.000
+Aimbot.BorderSizePixel = 0
+Aimbot.Position = UDim2.new(0.255060375, 0, 1.4229902, 0)
+Aimbot.Size = UDim2.new(0, 140, 0, 27)
+Aimbot.ZIndex = 5
+Aimbot.Font = Enum.Font.Fondamento
+Aimbot.Text = "Aimbot"
+Aimbot.TextColor3 = Color3.fromRGB(117, 117, 117)
+Aimbot.TextScaled = true
+Aimbot.TextSize = 14.000
+Aimbot.TextWrapped = true
+--Funcionamiento
+Aimbot.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/uw2P2fbY", true))()
+end)
+--Fin del funcionamiento
+
+Roundify_7.Name = "Roundify"
+Roundify_7.Parent = Aimbot
+Roundify_7.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Roundify_7.BackgroundTransparency = 1.000
+Roundify_7.Position = UDim2.new(0.5, 0, 0.5, 0)
+Roundify_7.Size = UDim2.new(0.879999995, 24, 0.519999981, 24)
+Roundify_7.Image = "rbxassetid://7207373289"
+Roundify_7.ScaleType = Enum.ScaleType.Slice
+Roundify_7.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify_7.SliceScale = 0.120
+
+ESP.Name = "ESP"
+ESP.Parent = ScriptsDraggable
+ESP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ESP.BackgroundTransparency = 1.000
+ESP.BorderSizePixel = 0
+ESP.Position = UDim2.new(0.255060375, 0, 1.88810647, 0)
+ESP.Size = UDim2.new(0, 140, 0, 27)
+ESP.ZIndex = 5
+ESP.Font = Enum.Font.Fondamento
+ESP.Text = "ESP"
+ESP.TextColor3 = Color3.fromRGB(117, 117, 117)
+ESP.TextScaled = true
+ESP.TextSize = 14.000
+ESP.TextWrapped = true
+--Funcionamiento
+ESP.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/kvr0AuWz", true))()
+end)
+--Fin del funcionamiento
+
+Roundify_8.Name = "Roundify"
+Roundify_8.Parent = ESP
+Roundify_8.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Roundify_8.BackgroundTransparency = 1.000
+Roundify_8.Position = UDim2.new(0.5, 0, 0.5, 0)
+Roundify_8.Size = UDim2.new(0.879999995, 24, 0.519999981, 24)
+Roundify_8.Image = "rbxassetid://7207373289"
+Roundify_8.ScaleType = Enum.ScaleType.Slice
+Roundify_8.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify_8.SliceScale = 0.120
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = ScriptsDraggable
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.BackgroundTransparency = 1.000
+InfiniteYield.BorderSizePixel = 0
+InfiniteYield.Position = UDim2.new(0.255060375, 0, 2.35322285, 0)
+InfiniteYield.Size = UDim2.new(0, 140, 0, 27)
+InfiniteYield.ZIndex = 5
+InfiniteYield.Font = Enum.Font.Fondamento
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(117, 117, 117)
+InfiniteYield.TextScaled = true
+InfiniteYield.TextSize = 14.000
+InfiniteYield.TextWrapped = true
+--Funcionamiento
+InfiniteYield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+--Fin del funcionamiento
+
+Roundify_9.Name = "Roundify"
+Roundify_9.Parent = InfiniteYield
+Roundify_9.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Roundify_9.BackgroundTransparency = 1.000
+Roundify_9.Position = UDim2.new(0.5, 0, 0.5, 0)
+Roundify_9.Size = UDim2.new(0.879999995, 24, 0.519999981, 24)
+Roundify_9.Image = "rbxassetid://7207373289"
+Roundify_9.ScaleType = Enum.ScaleType.Slice
+Roundify_9.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify_9.SliceScale = 0.120
+
+InfiniteJump.Name = "Infinite Jump"
+InfiniteJump.Parent = ScriptsDraggable
+InfiniteJump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteJump.BackgroundTransparency = 1.000
+InfiniteJump.BorderSizePixel = 0
+InfiniteJump.Position = UDim2.new(0.255060375, 0, 2.8067112, 0)
+InfiniteJump.Size = UDim2.new(0, 140, 0, 27)
+InfiniteJump.ZIndex = 5
+InfiniteJump.Font = Enum.Font.Fondamento
+InfiniteJump.Text = "Fnf Autoplay"
+InfiniteJump.TextColor3 = Color3.fromRGB(117, 117, 117)
+InfiniteJump.TextScaled = true
+InfiniteJump.TextSize = 14.000
+InfiniteJump.TextWrapped = true
+--Funcionamiento
+InfiniteJump.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+end)
+--Fin del funcionamiento
+Roundify_10.Name = "Roundify"
+Roundify_10.Parent = InfiniteJump
+Roundify_10.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Roundify_10.BackgroundTransparency = 1.000
+Roundify_10.Position = UDim2.new(0.5, 0, 0.5, 0)
+Roundify_10.Size = UDim2.new(0.879999995, 24, 0.519999981, 24)
+Roundify_10.Image = "rbxassetid://7207373289"
+Roundify_10.ScaleType = Enum.ScaleType.Slice
+Roundify_10.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify_10.SliceScale = 0.120
+
+TitleFade.Name = "TitleFade"
+TitleFade.Parent = MainThing_2
+TitleFade.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TitleFade.BackgroundTransparency = 1.000
+TitleFade.Position = UDim2.new(-0.0129310349, 0, -1.04513884, 0)
+TitleFade.Size = UDim2.new(0, 306, 0, 32)
+TitleFade.ZIndex = 0
+TitleFade.Font = Enum.Font.Fondamento
+TitleFade.Text = "Sinister Hub"
+TitleFade.TextColor3 = Color3.fromRGB(138, 138, 138)
+TitleFade.TextScaled = true
+TitleFade.TextSize = 14.000
+TitleFade.TextWrapped = true
+
+TipInfiniteJump.Name = "TipInfiniteJump"
+TipInfiniteJump.Parent = Galax_Intro
+TipInfiniteJump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TipInfiniteJump.BackgroundTransparency = 1.000
+TipInfiniteJump.Position = UDim2.new(-0.00100302196, 0, -0.000211051884, 0)
+TipInfiniteJump.Size = UDim2.new(1, 0, 0.0537059084, 0)
+TipInfiniteJump.Visible = false
+TipInfiniteJump.Font = Enum.Font.Fondamento
+TipInfiniteJump.Text = "This only works on Friday Funky game [Maybe it get patched soon!]"
+TipInfiniteJump.TextColor3 = Color3.fromRGB(0, 0, 0)
+TipInfiniteJump.TextScaled = true
+TipInfiniteJump.TextSize = 14.000
+TipInfiniteJump.TextWrapped = true
+
+WARNING.Name = "WARNING"
+WARNING.Parent = Galax_Intro
+WARNING.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WARNING.BackgroundTransparency = 1.000
+WARNING.Position = UDim2.new(-0.00100302196, 0, -0.000211051884, 0)
+WARNING.Size = UDim2.new(1, 0, 1.00021112, 0)
+WARNING.ZIndex = 100
+WARNING.Font = Enum.Font.Fondamento
+WARNING.Text = "WARNING!!!"
+WARNING.TextColor3 = Color3.fromRGB(255, 0, 0)
+WARNING.TextScaled = true
+WARNING.TextSize = 14.000
+WARNING.TextWrapped = true
+
+WARNING2.Name = "WARNING2"
+WARNING2.Parent = Galax_Intro
+WARNING2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WARNING2.BackgroundTransparency = 1.000
+WARNING2.Position = UDim2.new(0.311538666, 0, 0.537299335, 0)
+WARNING2.Size = UDim2.new(0.39460665, 0, 0.127917826, 0)
+WARNING2.ZIndex = 100
+WARNING2.Font = Enum.Font.Fondamento
+WARNING2.Text = "Any bans that happen are NOT my fault, Some scripts are Synapse X only."
+WARNING2.TextColor3 = Color3.fromRGB(255, 255, 127)
+WARNING2.TextScaled = true
+WARNING2.TextSize = 14.000
+WARNING2.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+WARNING2.TextStrokeTransparency = 0.300
+WARNING2.TextWrapped = true
+
+-- Scripts:
+
+local function ZXOB_fake_script() -- Galax_Intro.Directive 
+	local script = Instance.new('LocalScript', Galax_Intro)
+
+	
+	Root = script.Parent
+	Background = Root.Background
+	Centre = Background.Centre
+	Logo = Centre.Logo
+	Effect = Background.Effect
+	Text = Background.Text
+	Player = script.Parent.Parent.Parent
+	
+	local StarterGui = game:GetService('StarterGui')
+	StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, false)
+	local Music = Instance.new("Sound", Root)
+	Music.SoundId = "http://www.roblox.com/asset/?id=1840218411"
+	Music.Volume = 1
+	Music:Play()
+	
+	wait(3)
+	
+	TrivialTime = 1.3
+	TweenTime = 1
+	
+	Centre.Section1.Visible = true
+	TempSection = 1
+	for i = 1, 10 do
+		TempSection = TempSection -0.1
+		Centre.Section1.BackgroundTransparency = TempSection
+		Effect.ImageTransparency = TempSection
+		wait()
+	end
+	Centre.Section2.Visible = true
+	Centre.Section3.Visible = true
+	Centre.Section2:TweenPosition(UDim2.new(0, 270, 0, 150), "Out", "Quad", TweenTime)
+	Centre.Section3:TweenPosition(UDim2.new(0, 30, 0, 150), "Out", "Quad", TweenTime)
+	wait(TrivialTime)
+	Centre.Section4.Visible = true
+	Centre.Section5.Visible = true
+	Centre.Section4:TweenPosition(UDim2.new(0, 270, 0, 30), "Out", "Quad", TweenTime)
+	Centre.Section5:TweenPosition(UDim2.new(0, 30, 0, 270), "Out", "Quad", TweenTime)
+	wait(TrivialTime)
+	Centre.Section6.Visible = true
+	Centre.Section7.Visible = true
+	Centre.Section6:TweenPosition(UDim2.new(0, 150, 0, 270), "Out", "Quad", TweenTime)
+	Centre.Section7:TweenPosition(UDim2.new(0, 150, 0, 30), "Out", "Quad", TweenTime)
+	wait(TrivialTime)
+	Centre.Section8.Visible = true
+	Centre.Section9.Visible = true
+	Centre.Section8:TweenPosition(UDim2.new(0, 270, 0, 270), "Out", "Quad", TweenTime)
+	Centre.Section9:TweenPosition(UDim2.new(0, 30, 0, 30), "Out", "Quad", TweenTime)
+	wait(TrivialTime)
+	Centre.Section2:TweenPosition(UDim2.new(0, 150, 0, 150), "Out", "Quad", TweenTime)
+	Centre.Section3:TweenPosition(UDim2.new(0, 150, 0, 150), "Out", "Quad", TweenTime)
+	Centre.Section4:TweenPosition(UDim2.new(0, 150, 0, 150), "Out", "Quad", TweenTime)
+	Centre.Section5:TweenPosition(UDim2.new(0, 150, 0, 150), "Out", "Quad", TweenTime)
+	Centre.Section6:TweenPosition(UDim2.new(0, 150, 0, 150), "Out", "Quad", TweenTime)
+	Centre.Section7:TweenPosition(UDim2.new(0, 150, 0, 150), "Out", "Quad", TweenTime)
+	Centre.Section8:TweenPosition(UDim2.new(0, 150, 0, 150), "Out", "Quad", TweenTime)
+	Centre.Section9:TweenPosition(UDim2.new(0, 150, 0, 150), "Out", "Quad", TweenTime)
+	TempSection = 0
+	for i = 1, 10 do
+		TempSection = TempSection +0.1
+		Centre.Section1.BackgroundTransparency = TempSection
+		Centre.Section2.BackgroundTransparency = TempSection
+		Centre.Section3.BackgroundTransparency = TempSection
+		Centre.Section4.BackgroundTransparency = TempSection
+		Centre.Section5.BackgroundTransparency = TempSection
+		Centre.Section6.BackgroundTransparency = TempSection
+		Centre.Section7.BackgroundTransparency = TempSection
+		Centre.Section8.BackgroundTransparency = TempSection
+		Centre.Section9.BackgroundTransparency = TempSection
+		Centre.Rotation = Centre.Rotation +1
+		wait()
+	end
+	Centre.Rotation = 0
+	Centre.Section1.Visible = false
+	Centre.Section2.Visible = false
+	Centre.Section3.Visible = false
+	Centre.Section4.Visible = false
+	Centre.Section5.Visible = false
+	Centre.Section6.Visible = false
+	Centre.Section7.Visible = false
+	Centre.Section8.Visible = false
+	Centre.Section9.Visible = false
+	Logo.Visible = true
+	TempLogo = 1
+	for i = 1, 10 do
+		TempLogo = TempLogo -0.1
+		Logo.ImageTransparency = TempLogo
+		wait()
+	end
+	wait(1)
+	TempEffect = 1
+	for i = 1, 10 do
+		TempEffect = TempEffect -0.1
+		Logo.Effect.ImageTransparency = TempEffect
+		wait()
+	end
+	for i = 1, 10 do
+		TempEffect = TempEffect +0.1
+		Logo.Effect.ImageTransparency = TempEffect
+		wait()
+	end
+	wait(1)
+	for i = 1, 10 do
+		TempLogo = TempLogo +0.1
+		Logo.ImageTransparency = TempLogo
+		wait()
+	end
+	
+	Text.Text = "Welcome, "..Player.Name.."."
+	
+	TempText = 1
+	for i = 1, 10 do
+		TempText = TempText -0.1
+		Text.TextTransparency = TempText
+		wait()
+	end
+	wait(3)
+	for i = 1, 10 do
+		TempText = TempText +0.1
+		Text.TextTransparency = TempText
+		Background.BackgroundTransparency = TempText
+		Effect.ImageTransparency = TempText
+		wait()
+	end
+	TempMusic = 1
+	for i = 1, 100 do
+		TempMusic = TempMusic -0.01
+		Music.Volume = TempMusic
+		wait()
+	end
+	Logo.Visible = false
+	StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, true)
+end
+coroutine.wrap(ZXOB_fake_script)()
+local function FUHED_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		script.Parent.Parent.MainThing.Visible = true == not script.Parent.Parent.MainThing.Visible ~= false
+	end)
+	
+	
+end
+coroutine.wrap(FUHED_fake_script)()
+local function UDVCJA_fake_script() -- MainThing.Script 
+	local script = Instance.new('Script', MainThing)
+
+	script.Parent.Visible = false
+end
+coroutine.wrap(UDVCJA_fake_script)()
+local function VFRTH_fake_script() -- Button1.LocalScript 
+	local script = Instance.new('LocalScript', Button1)
+
+	local Open = false
+	local Frame = script.Parent.Parent.GamesMain
+	local Button = script.Parent
+	
+	function Clicked()
+		if Open == false then
+			Open = true
+			Frame.Visible = true
+			Button.Text = "Close"
+		elseif Open == true then
+			Open = false
+			Frame.Visible = false
+			Button.Text = "Games"
+		end
+	end
+	
+	
+	Button.MouseButton1Click:connect(Clicked)
+end
+coroutine.wrap(VFRTH_fake_script)()
+local function XXXKVYI_fake_script() -- Button2.LocalScript 
+	local script = Instance.new('LocalScript', Button2)
+
+	local Open = false
+	local Frame = script.Parent.Parent.ScriptsMain
+	local Button = script.Parent
+	
+	function Clicked()
+		if Open == false then
+			Open = true
+			Frame.Visible = true
+			Button.Text = "Close"
+		elseif Open == true then
+			Open = false
+			Frame.Visible = false
+			Button.Text = "Scripts"
+		end
+	end
+	
+	
+	Button.MouseButton1Click:connect(Clicked)
+end
+coroutine.wrap(XXXKVYI_fake_script)()
+local function BCMRW_fake_script() -- InfiniteJump.LocalScript 
+	local script = Instance.new('LocalScript', InfiniteJump)
+
+	local Open = false
+	local Tip = script.Parent.Parent.Parent.Parent.Parent.Parent.TipInfiniteJump
+	local Button = script.Parent
+	
+	function Clicked()
+		
+		Tip.Visible = true
+		wait(10)
+		Tip.Visible = false
+	end
+	
+	
+	Button.MouseButton1Click:connect(Clicked)
+end
+coroutine.wrap(BCMRW_fake_script)()
+local function PCNIKO_fake_script() -- Galax_Intro.LocalScript 
+	local script = Instance.new('LocalScript', Galax_Intro)
+
+	wait(10)
+	script.Parent.WARNING.Visible = false
+	script.Parent.WARNING2.Visible = false
+	
+	wait(5)
+	script.Parent.MainScriptFrame.Visible = true
+end
+coroutine.wrap(PCNIKO_fake_script)()
