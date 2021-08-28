@@ -23,7 +23,7 @@ TextLabel.TextWrapped = true
 local function OLXT_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
-	local Time = script.Parent --change this to your label. 
+	local Time = script.Parent 
 	
 		local Start = tick()
 	
