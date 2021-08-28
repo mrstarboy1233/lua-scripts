@@ -1,0 +1,56 @@
+
+local ScreenGui = Instance.new("ScreenGui")
+local TextLabel = Instance.new("TextLabel")
+
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+TextLabel.Parent = ScreenGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.398587286, 0, 0.018394649, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "0:00"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+-- Scripts:
+
+local function OLXT_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	local Time = script.Parent --change this to your label. 
+	
+		local Start = tick()
+	
+local function PlayTimer() 
+	
+		while true do
+			wait()
+	
+			local Difference = tick() - Start
+	
+			local Minutes = math.floor(Difference / 60)
+			local Seconds = Difference - Minutes * 60
+			local Milliseconds = math.floor((Seconds - math.floor(Seconds)) * 10) 
+			Seconds = math.floor(Seconds)
+	
+			if string.len(Milliseconds) < 3 then Milliseconds = "0" .. Milliseconds end 
+			if string.len(Seconds) < 2 then Seconds = "0" .. Seconds end 
+			if string.len(Minutes) < 2 then Minutes = "0" .. Minutes end
+	
+			local Format =  Minutes .. ":" .. Seconds .. ":" .. Milliseconds
+	
+			Time.Text = Format
+		end
+	end
+	
+	PlayTimer()
+	
+	
+end
+coroutine.wrap(OLXT_fake_script)()
