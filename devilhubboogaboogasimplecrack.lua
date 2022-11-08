@@ -1,4 +1,4 @@
-local tx = game:HttpGet("https://s3.eu-central-1.amazonaws.com/adlocis.linkvertise.links/pastes/35870585.txt?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA6L5L3NKTBHJ3YVHU/20221102/eu-central-1/s3/aws4_request&X-Amz-Date=20221102T043001Z&X-Amz-SignedHeaders=host&X-Amz-Expires=432000&X-Amz-Signature=5929ebc5ef5364a8588df988fc94ed2c499991ab875912bdfed68b7e22c1ed99"):split("- ")[2]
+local tx = game:HttpGet("https://s3.eu-central-1.amazonaws.com/adlocis.linkvertise.links/pastes/35870585.txt?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA6L5L3NKTBHJ3YVHU/20221108/eu-central-1/s3/aws4_request&X-Amz-Date=20221108T165612Z&X-Amz-SignedHeaders=host&X-Amz-Expires=432000&X-Amz-Signature=9df6bdb5915607e111772e14736d284c2fa63b3328a04bb53197c1d48a25c407"):split("- ")[2]
 pcall(function()
 local meta, oldm = getrawmetatable(game), {}
 setreadonly(meta, false)
