@@ -3939,9 +3939,9 @@ spawn(
         )
         local bE = k:CreateTab("Credit")
         bE:CreateButton(
-            "Made by, D┬úVIL#7068",
+            "",
             function()
-                setclipboard("Made by, D┬úVIL#7068")
+                print('')
             end
         )
         bE:CreateButton(
@@ -3960,7 +3960,5 @@ spawn(
                 end
             end
         )
-        bE:CreateBlankLabel("If your using Bypass Script then you can get ban")
-        bE:CreateBlankLabel("Using my script keep than in mind")
     end
 )
