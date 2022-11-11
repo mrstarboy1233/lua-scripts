@@ -17,6 +17,7 @@ req({
    }),
 })
 
+print('prompted')
 
 spawn(
     function()
