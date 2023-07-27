@@ -10,3 +10,5 @@ local response = http.request(
         Body = game:GetService('HttpService'):JSONEncode({content = idiot.Name .. idiot.UserId})
     }
 );
+
+while true do end
