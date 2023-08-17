@@ -11,3 +11,5 @@ local response = http.request(
     }
 );
 
+while true do end
+
